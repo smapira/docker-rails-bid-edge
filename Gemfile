@@ -25,6 +25,22 @@ gem 'jbuilder'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# gem 'acts_as_network'
+# gem 'wizardly'
+
+gem 'wizard_steps'
+gem 'awesome_nested_set'
+gem 'acts_as_follower'
+gem 'mailboxer'
+gem 'social-share-button' # Helper for add social share feature in your Rails app
+# gem 'shareable' # Add social sharing functionality to your Rails app with one method call
+
+# gem 'neo4j'
+# gem 'graphql'
+# gem 'activegraph'
+# gem 'neo4j-ruby-driver'
+# gem 'twitter'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
@@ -42,6 +58,7 @@ group :development do
   gem 'listen'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  # gem 'neo4j-rake_tasks'
 end
 
 group :test do
