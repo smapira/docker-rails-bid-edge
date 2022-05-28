@@ -28,9 +28,6 @@ gem 'jbuilder'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
 
-gem 'acts_as_tree_diagram', :path => '/Users/bookpro/Codebases/experimental/acts_as_tree_diagram'
-gem 'acts_as_tree'
-
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

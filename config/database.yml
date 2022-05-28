@@ -11,15 +11,15 @@ default: &default
 
 development:
   <<: *default
-  database: db/development_<%= ENV.fetch('MYSQL_DB_NAME'){ 'database' } %>
+  database: db/development_<%= ENV.fetch('DB_NAME'){ 'database' } %>.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: db/test_<%= ENV.fetch('MYSQL_DB_NAME'){ 'database' } %>
+  database: db/test_<%= ENV.fetch('DB_NAME'){ 'database' } %>.sqlite3
 
 production:
   <<: *default
-  database: db/<%= ENV.fetch('MYSQL_DB_NAME'){ 'database' } %>
+  database: db/<%= ENV.fetch('DB_NAME'){ 'database' } %>.sqlite3
