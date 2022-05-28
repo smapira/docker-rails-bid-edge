@@ -1,4 +1,5 @@
-# docker compose rails bit tip
+# Bid to close Rails latest.
 
-Bid to catch up rails newer version.
-
+## Stack
+- Rails (7.0.3)
+- Docker Compose
